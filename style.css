@@ -1,15 +1,17 @@
+/* Main Body => Background-Black, Font Color-White, Font-Arial */
 body{
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
-
+/* Header Text => Font Color-Gray, Font-Verdana */
 h1{
     color: gray;
     font-family: Verdana, sans-serif;
 }
 
+/* Main Container => Width-600px, Background-White, Font Color-Black, Padding-20px, Border Radius-25px Align-Center */
 .maindiv{
     width: 600px;
     background-color: white;
@@ -17,22 +19,26 @@ h1{
     padding: 20px;
     border-radius: 25px;
     margin:auto;
-    
 }
 
+/* Additional Styles */
+/* Form Container => Background-White, Padding-Left 150px to align content to Center*/
 .formdiv{
     background-color: white;
     padding-left: 150px;
 } 
 
+/*Align Principal Input Text field*/
 #principal{
     margin-left: 50px;
 }
 
+/*Align Rate Input Range field*/
 #rate{
     margin-left: 10px;
 }
 
+/*Align Years Drop Down Input field*/
 #years{
     margin-left: 20px;
 }
